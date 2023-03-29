@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cloud Automation Testing Tool for Web and Mobile
+  Applications</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/login-styles.css" rel="stylesheet">
+   <link href="css/layout.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="layout">
+    <div class="sidemenu-navbar">
+        <nav class="sidemenu-navbar-list">
+            <ul class="menu-scroll">
+            <a href="#" class="sidemenu-navbar-item"><li><i class="fa fa-user-o edit-font" aria-hidden="true"></i>
+           Users </li></a>
+            <a href="#" class="sidemenu-navbar-item active"><li><i class="fa fa-list-alt edit-font" aria-hidden="true"></i> Application</li></a>
+            <a href="#" class="sidemenu-navbar-item"><li><i class="fa fa-file-o edit-font" aria-hidden="true"></i> Documents</li> </a>
+            <a href="#" class="sidemenu-navbar-item text-center"><li class="text-center"><span><img class="" src="images/result-icon.png" alt="Result Icon" width="22px" height="22px"></span>Test Results</li> </a>
+            <a href="#" class="sidemenu-navbar-item"><li><i class="fa fa-laptop edit-font" aria-hidden="true"></i> API Testing</li> </a>
+            <a href="#" class="sidemenu-navbar-item text-center"><li class="text-center"><span><img class="" src="images/selenium-icon.png" alt="Selenium Icon" width="22px" height="22px"></span>Selenium Fuctions</li> </a>
+            </ul>
+            <ul class="fixed-bottom">
+          <a href="#" class="sidemenu-navbar-item"><li><i class="fa fa-comments-o edit-font" aria-hidden="true"></i> Feedback</li> </a>
+          <div class="nav-item dropdown">
+          <a  class="sidemenu-navbar-item" data-bs-toggle="dropdown"><li><i class="fa fa-question mb-1" aria-hidden="true"></i> Help </li></a>
+          <ul class="dropdown-menu shadow border-0">
+   <li><a class="dropdown-item pt-2" href="">Upgrade Now</a></li>
+    <li><a class="dropdown-item pt-2" href="">Video Tutorial</a></li>
+  <li><a class="dropdown-item pt-2" href="">FAQs</a></li>
+ 
+  </ul>
+</div> <a href="#" class="sidemenu-navbar-item"><li><i class="fa fa-info mb-1" aria-hidden="true"></i> TestWheel Info </li></a>
+            </ul>
+        </nav>
+    </div>
+    <section class="body-content new-app">
+        <div class="fixed-header border-bottom">
+            <div class="row">
+                <div class="col-md-6"><img class="logo me-4" src="images/logo.webp" alt="TestWheel-Logo" width="270px" height="80px"><a  class="sidemenu-toggle d-lg-none align-self-center"><i class="fa fa-bars"></i></a> </div>
+                <div class="col-md-6 text-end align-self-center"> <a href="#" class=""><img class="" src="images/home-icon.png" alt="Home Icon" width="22px" height="22px"></a>
+          <div class="btn-group">
+  <a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+   <img class="" src="images/user-icon.png" alt="User Icon" width="22px" height="22px">  Welcome Liza!
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Account Settings</a></li>
+    <li><a class="dropdown-item" href="#">Logout</a></li>
+  </ul>
+  
+</div>
+      </div>
+            </div>
+            </div>
+        <div class="main-content">
+           <div class="container-fluid pt-4 ps-md-5">
+            <h3 class="text-testing fw-bold">Create a new application</h3>
+            <div class="row">
+                <div class="col-md-8">
+                     <div class="row pt-4">
+                <div class="form-group mb-lg-4">
+    <label class="fw-bold pb-2">Application Name</label>
+    <input type="text" class="form-control form-input" placeholder="">
+   </div>
+   <div class="form-group mb-lg-4">
+    <label class="fw-bold pb-2">Description</label>
+    <input type="text" class="form-control form-input" placeholder="">
+   </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                <div class="form-group mb-lg-4">
+    <label class="fw-bold pb-2">Type</label>
+    <select class="form-select form-input">
+  <option selected="">Select</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+   </div>
+</div>
+<div class="col-md-6">
+   <div class="form-group mb-lg-4">
+    <label class="fw-bold pb-2">Environment Selection</label>
+   <select class="form-select form-input">
+  <option selected="">Select</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+   </div>
+</div>
+            </div>
+            <div class="mt-4">
+            <button type="submit" class="btn btn-login p-2 fw-bold rounded-3 me-4 mb-3">Register</button>
+            <button type="submit" class="btn btn-back p-2 fw-bold rounded-3 mb-3">Cancel</button>
+          </div>
+                </div>
+            </div>
+           
+            
+        </div> 
+        </div>
+    
+</section>
+
+
+</body>
+
+<script type="text/javascript">
+    const responsiveView = window.matchMedia("(max-width: 990px )");
+$(document).ready(function () {
+    $(".sidemenu-toggle").click(function () {
+        if (responsiveView.matches) {
+            $(".sidemenu-navbar").toggleClass("mobile-show");
+        } else {
+           
+        }
+    });
+});
+
+
+</script>
+</html>
+
+
